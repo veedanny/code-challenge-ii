@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Student Grade Generator-->
+    <div class="Student Grade"> 
+        <h1 class="titles">Student Grade Generator</h1>
+        <button class="btn" onclick="mymarks()">Enter Marks</button>
+        <div id="marks_results">
+            <p id="grade_answer"> </p>
+
+        </div>
+    </div>
+
+     <!--Speed Detector-->
+     <div id="speed">
+        <h1 class="titles">Speed Detector</h1>
+        <input type="number" placeholder="Speed" id="ssss">
+        <button class="btn" onclick="calculateSpeed()">Calculate Speed</button>
+        <div class="resultholder" id="speedResult"><div id="result"></div></div>
+        
+        
+     </div>
+
+     <!--Net Salary Calculator-->
+     <div class="Salary">
+        <h1 class="titles">Net Salary Calculator</h1>
+        <br>Gross Salary<br>
+        <input type="number" id="Salary" placeholder="Gross Salary">
+        <br>Benefits<br>
+        <input type="number" id="benefit" placeholder="Benefits" value="0">
+        <BUtton class="net btn" onclick="calculateSalary()">Calculate Net Salary</BUtton>
+        <p id="netsalary"></p>
+     </div>
+</body>
+<script src="./intro.js"></script>
+<script src="./script.js"></script>
+<script src="./view.js"></script>
+
+</html>
